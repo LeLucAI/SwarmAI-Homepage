@@ -237,10 +237,10 @@ useEffect(() => {
             <div className="space-y-6">
               {/* Intro statements */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-                Swarm.AI<br /> Reconnaissance backbone for modern defense &amp; emergency operations<span className="text-accent1">_</span>
+                Swarm.AI<br /> Perception Systems for European Defence<span className="text-accent1">_</span>
               </h1>
               <p className="text-lg md:text-xl text-textSecondary">
-                Fast. Accurate. Modular. From sensor to system to platform.
+                AI backbone for defence against UAS.
               </p>
               <div className="flex flex-wrap space-x-4 mt-6">
                 {/* Prominent contact button */}
@@ -447,7 +447,7 @@ useEffect(() => {
                   rel="noopener noreferrer"
                   className="hover:underline text-accent1 font-medium"
                 >
-                  TUM Photogrammetry & Remote Sensing — TUM Aerospace
+                  TUM Venture Labs &amp; Photogrammetry & Remote Sensing
                 </a>
                 <a
                   href="https://www.dide.com/defence/en/"
@@ -455,7 +455,7 @@ useEffect(() => {
                   rel="noopener noreferrer"
                   className="hover:underline text-accent1 font-medium"
                 >
-                  DiDe Defence GmbH & Co. KG — user / Incubation partner
+                  Industrial Defence and Incubation partner
                 </a>
                 <a
                   href="https://www.rvconnex.com"
@@ -704,7 +704,7 @@ useEffect(() => {
             <p className="text-textSecondary">Platform & integration</p>
           </div>
           <div className="bg-card rounded-xl p-6 shadow-md">
-            <h3 className="text-xl font-semibold mb-2">DiDe</h3> 
+            <h3 className="text-xl font-semibold mb-2">Industrial Partner</h3> 
             <p className="text-textSecondary">User / industry partner</p>
           </div>
           <div className="bg-card rounded-xl p-6 shadow-md">
@@ -724,7 +724,7 @@ useEffect(() => {
           </div>
           <div className="bg-card rounded-xl p-4 text-textSecondary">
             <h4 className="font-semibold">Incubation</h4>
-            <p className="text-textSecondary text-sm">TUM Venture Labs / UnternehmerTUM network<br />DiDe</p>
+            <p className="text-textSecondary text-sm">TUM Venture Labs / UnternehmerTUM network<br />TUM</p>
           </div>
           <div className="bg-card rounded-xl p-4 text-textSecondary">
             <h4 className="font-semibold">Notes</h4>
