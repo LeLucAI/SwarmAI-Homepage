@@ -247,8 +247,8 @@ useEffect(() => {
                 <Link href="#contact" className="inline-flex items-center px-6 py-3 bg-accent2 text-background font-semibold rounded-lg shadow hover:bg-accent2/80 transition-colors">
                   Contact us
                 </Link>
-                <Link href="#contact" className="inline-flex items-center px-6 py-3 bg-accent1 text-background font-semibold rounded-lg shadow hover:bg-accent1/80 transition-colors">
-                  Request a briefing
+                <Link href="#aboutus" className="inline-flex items-center px-6 py-3 bg-accent1 text-background font-semibold rounded-lg shadow hover:bg-accent1/80 transition-colors">
+                  Meet the team
                 </Link>
                 <Link href="#technology" className="inline-flex items-center px-6 py-3 border border-accent1 text-accent1 font-semibold rounded-lg hover:bg-accent1 hover:text-background transition-colors">
                   Explore the tech <ArrowRight className="ml-2 h-5 w-5" />
@@ -486,12 +486,14 @@ useEffect(() => {
 {/* Problem Section */}
       <section id="problem" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">The aerial threat has changed<span className="text-accent1">_</span></h2> 
-              <p className="text-xl md:text-2xl font-semibold text-textPrimary">
-                We believe defense against small UAVs is the major technology challenge in the 2020s/30s<span className="text-accent1">_</span><br />
-                <br />
-                We bring the latest scientific progress in computer vision and tracking to the defense industry.<span className="text-accent1">_</span>
-              </p>
-              <br />
+          <p className="block bg-card rounded-xl p-6 shadow-md space-y-2 bottom-4 hover:shadow-lg font-semibold transition-shadow text-textPrimary text-xl md:text-xl">
+
+
+            We believe defense against small UAVs is the major technology challenge in the 2020s/30s.
+            <br></br>
+            We bring the latest scientific progress in computer vision and tracking to the defense industry. 
+          </p>
+        <br></br>
         <div className="grid md:grid-cols-5 gap-8">
           <div className="md:col-span-3 space-y-4 text-textSecondary">           
 
@@ -569,8 +571,12 @@ useEffect(() => {
 
       {/* Approach Section */}
       <section id="technology" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6">Precision at speed<span className="text-accent1">_</span></h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6">Precision on the edge - at speed<span className="text-accent1">_</span></h2>
+        <p className="block bg-card rounded-xl p-6 shadow-md space-y-2 bottom-4 hover:shadow-lg transition-shadow text-textSecondary">
+          Modern approaches require widely decentralized systems of affordable sensors and compute
+        </p>
+        <br></br>
+        <div className="grid md:grid-cols-3 gap-6">
           <Link href="/pose" className="block bg-card rounded-xl p-6 shadow-md space-y-2 hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-semibold">6D Object Pose Estimation</h3>
             <p className="text-textSecondary">Per-object 6DOF pose estimates (position + orientation), multi-object association and robust tracking in cluttered scenes.</p>
@@ -589,7 +595,7 @@ useEffect(() => {
             <p className="text-textSecondary">Real-time multimodal sensor registration for planning, geolocation and audit trails.</p>
               <img
                   src="/images/image4.gif"
-                  className="w-full h-[50%] object-cover rounded-2xl"
+                  className="w-full  object-cover rounded-2xl"
                   alt="Multimodal sensor registration"
               />
           </Link>
@@ -598,7 +604,7 @@ useEffect(() => {
             <p className="text-textSecondary">Real-time dense and sparse 3D reconstruction to build actionable digital twins for planning, geolocation and audit trails.</p>
               <img
                   src="/images/image3.gif"
-                  className="w-full h-[50%] object-cover rounded-2xl"
+                  className="w-full  object-cover rounded-2xl"
                   alt="Reconstruction of 3D Digital Twin"
               />
           </Link>
@@ -618,44 +624,43 @@ useEffect(() => {
 
       {/* Product Section */}
       <section id="product" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6">SwarmEye Edge‑AI Drone development<span className="text-accent1">_</span></h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6">Swarm.ai Edge‑AI Anti Drone Program<span className="text-accent1">_</span></h2>
         <div className="grid md:grid-cols-2 gap-8">
 
         <p className="text-xl md:text-2xl font-semibold text-textPrimary">
-                Our consortium develops a surveillance system consisting of drones, static cameras, accustic sensors and fuses all data ready to be consumed by your platform.<span className="text-accent1">_</span><br />
+                We develop a full anti-drone solution.
           <br /></p>
           <div className="space-y-4 text-textSecondary">
-            <p>Edge compute for autonomous perception and decision making.</p>
-            <p>Modular payload with thermal, LiDAR and polarization sensors.</p>
+            <p>Highly autonomous perception, fusion and decision making.</p>
             <p>Designed for rugged environments and seamless C2 integration.</p>
           </div>
           <div className="space-y-4">
             <div className="bg-card rounded-xl p-6 shadow-md">
-              <h3 className="text-xl font-semibold">Payload</h3>
-              <p className="text-textSecondary">7–15 kg (placeholder)</p>
+              <h3 className="text-xl font-semibold">Perception</h3>
+              <p className="text-textSecondary">123</p>
             </div>
             <div className="bg-card rounded-xl p-6 shadow-md">
-              <h3 className="text-xl font-semibold">Endurance</h3>
-              <p className="text-textSecondary">Placeholder for speed bands / endurance</p>
+              <h3 className="text-xl font-semibold">Decision</h3>
+              <p className="text-textSecondary">123</p>
             </div>
             <div className="bg-card rounded-xl p-6 shadow-md">
-              <h3 className="text-xl font-semibold">Sensors</h3>
-              <p className="text-textSecondary">FLIR thermal, Seyond Falcon K1 LiDAR, Lucid PolarSens RGB/Polarization</p>
+              <h3 className="text-xl font-semibold">Reaction</h3>
+              <p className="text-textSecondary">123</p>
             </div>
           </div>
         </div>
-        <div className="mt-6">
+        {/* <div className="mt-6">
           <Link href="#contact" className="text-accent1 hover:underline">Get the datasheet &rarr;</Link>
-        </div>
+        </div> */}
       </section>
 
       {/* Architecture Section */}
-      <section id="architecture" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      {/* <section id="architecture" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">Architecture Overview<span className="text-accent1">_</span></h2>
         <div className="bg-card rounded-xl p-6 shadow-md text-textSecondary">
           <Link href="/architecture" className="text-accent1 hover:underline">See our solutions integrated in a C2 Command and Control environment.</Link>
         </div>
-      </section>
+      </section> */}
 
       {/* Links to detailed demo pages */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -675,16 +680,6 @@ useEffect(() => {
         </div>
       </section>
 
-      {/* About us Section */}
-      <section id="aboutus" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6">About Us <span className="text-accent1">_</span></h2>
-        {/* <p>Bringing 3D perception research to affordable, export‑aware edge platforms.</p>
-        <br /> */}
-        <div className="bg-card rounded-xl p-6 shadow-md text-textSecondary">
-          {/* <Link href="/aboutus" className="text-accent1 hover:underline">See our solutions integrated in a C2 Command and Control environment.</Link> */}
-          <p>Founded in 2025 as a spin-off from the Technical University of Munich (TUM), Swarm.AI is driven by a mission to revolutionize aerial threat detection and defense. Our team combines deep expertise in computer vision, robotics, and aerospace engineering to deliver cutting-edge solutions that address the evolving challenges of modern defense. With a strong foundation in research and a commitment to innovation, we are dedicated to providing reliable, efficient, and scalable technologies that enhance situational awareness and operational effectiveness for our clients worldwide.</p>
-        </div>
-      </section>
 
 
 
@@ -727,8 +722,13 @@ useEffect(() => {
             <p className="text-textSecondary text-sm">TUM Venture Labs / UnternehmerTUM network<br />TUM</p>
           </div>
           <div className="bg-card rounded-xl p-4 text-textSecondary">
-            <h4 className="font-semibold">Notes</h4>
-            <p className="text-textSecondary text-sm">Some partners act as users, others as incubators; roles vary by project.</p>
+            <h4 className="font-semibold">Network</h4>
+            <p className="text-textSecondary text-sm">What are we allowed to show?</p>
+
+            <div className="w-full h-44 bg-[url('/images/partners/TUM.png')] bg-center bg-cover" />
+            <div className="w-full h-44 bg-[url('/images/partners/Diehl.png')] bg-center bg-cover" />
+            <div className="w-full h-44 bg-[url('/images/partners/Hensoldt.png')] bg-center bg-cover" />
+            <div className="w-full h-44 bg-[url('/images/partners/RhodeSchwarz.png')] bg-center bg-cover" />
           </div>
         </div>
 
@@ -740,19 +740,19 @@ useEffect(() => {
       {/* Research (visual-first) */}
       <section id="research" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">Research Pedigree<span className="text-accent1">_</span></h2>
-        <p className="text-textSecondary mb-6">Grounded in photogrammetry, point-cloud processing and multi-object tracking — shown visually below.</p>
+        <p className="text-textSecondary mb-6">Grounded in photogrammetry, from established researchers with CVPR record and background in autonomous systems.</p>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-card rounded-xl overflow-hidden">
             <div className="w-full h-44 bg-[url('/videos/source-2.mp4')] bg-center bg-cover" />
-            <div className="p-4 text-textSecondary">Photogrammetry capture</div>
+            <div className="p-4 text-textSecondary">Photogrammetry</div>
           </div>
           <div className="bg-card rounded-xl overflow-hidden">
             <div className="w-full h-44 bg-[url('/videos/source.mp4')] bg-center bg-cover" />
-            <div className="p-4 text-textSecondary">Pose estimation & tracking</div>
+            <div className="p-4 text-textSecondary">Autonomous systems and automotive</div>
           </div>
           <div className="bg-card rounded-xl overflow-hidden">
-            <div className="w-full h-44 bg-gradient-to-br from-[#0f1724] to-[#11151c] flex items-center justify-center text-textSecondary">Visualization</div>
-            <div className="p-4 text-textSecondary">3D reconstruction & simulation</div>
+            <div className="w-full h-44 bg-[url('/videos/source.mp4')] bg-center bg-cover" />
+            <div className="p-4 text-textSecondary">Edge AI and Big Data</div>
           </div>
         </div>
         <div className="mt-6">
@@ -761,38 +761,72 @@ useEffect(() => {
       </section>
 
       {/* Team (short) */}
-      <section id="team" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section id="aboutus" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6">About Us <span className="text-accent1">_</span></h2>
+        {/* <p>Bringing 3D perception research to affordable, export‑aware edge platforms.</p>
+        <br /> */}
+        <div className="bg-card rounded-xl p-6 shadow-md text-textSecondary">
+          {/* <Link href="/aboutus" className="text-accent1 hover:underline">See our solutions integrated in a C2 Command and Control environment.</Link> */}
+          <p>Founded in 2025 as a spin-off from the Technical University of Munich (TUM), Swarm.AI is driven by a mission to revolutionize aerial threat detection and defense. Our team combines deep expertise in computer vision, robotics, and aerospace engineering to deliver cutting-edge solutions that address the evolving challenges of modern defense. With a strong foundation in research and a commitment to innovation, we are dedicated to providing reliable, efficient, and scalable technologies that enhance situational awareness and operational effectiveness for our clients worldwide.</p>
+        </div>
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">Team<span className="text-accent1">_</span></h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-card rounded-xl p-6 shadow-md text-center">
             <h3 className="text-xl font-semibold mb-2">Dr. Lukas Karge</h3>
-            <p className="text-textSecondary">CEO — distributed systems & AI deployment.</p>
+            <p className="text-textSecondary">CEO</p>
           </div>
           <div className="bg-card rounded-xl p-6 shadow-md text-center">
-            <h3 className="text-xl font-semibold mb-2">Prof. Benjamin Busam</h3>
-            <p className="text-textSecondary">CTO — 3D vision & founder (3dWe).</p>
+            <h3 className="text-xl font-semibold mb-2">Prof. Dr. Benjamin Busam</h3>
+            <p className="text-textSecondary">CTO</p>
           </div>
           <div className="bg-card rounded-xl p-6 shadow-md text-center">
-            <h3 className="text-xl font-semibold mb-2">Core engineers</h3>
-            <p className="text-textSecondary">AI, 3D perception and remote sensing researchers.</p>
+            <h3 className="text-xl font-semibold mb-2">Michael Greza</h3>
+            <p className="text-textSecondary">AI researcher</p>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-card rounded-xl p-6 shadow-md text-center">
+            <h3 className="text-xl font-semibold mb-2">Mert Kiray</h3>
+            <p className="text-textSecondary">AI Architect.</p>
+          </div>
+          <div className="bg-card rounded-xl p-6 shadow-md text-center">
+            <h3 className="text-xl font-semibold mb-2">Dr. Florian Eberhardt</h3>
+            <p className="text-textSecondary">AI researcher</p>
+          </div>
+          <div className="bg-card rounded-xl p-6 shadow-md text-center">
+            <h3 className="text-xl font-semibold mb-2">abc</h3>
+            <p className="text-textSecondary">xyze</p>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-card rounded-xl p-6 shadow-md text-center">
+            <h3 className="text-xl font-semibold mb-2">abc</h3>
+            <p className="text-textSecondary">xyz</p>
+          </div>
+          <div className="bg-card rounded-xl p-6 shadow-md text-center">
+            <h3 className="text-xl font-semibold mb-2">abc</h3>
+            <p className="text-textSecondary">xyz</p>
+          </div>
+          <div className="bg-card rounded-xl p-6 shadow-md text-center">
+            <h3 className="text-xl font-semibold mb-2">abc</h3>
+            <p className="text-textSecondary">xyze</p>
           </div>
         </div>
         <div className="mt-6 text-center">
-          <Link href="#contact" className="text-accent1 hover:underline">Meet the extended network &rarr;</Link>
+          <Link href="#consortium" className="text-accent1 hover:underline">Meet the extended network &rarr;</Link>
         </div>
       </section>
 
       {/* Final CTA Section */}
       <section className="bg-card py-16" id="call-to-action">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Let’s bring situational awareness into the next era<span className="text-accent1">_</span></h2>
-          <p className="text-textSecondary mb-8">We’ll respond within two business days; export compliance applies.</p>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Network<span className="text-accent1">_</span></h2>
           <div className="flex justify-center space-x-4">
-            <Link href="#contact" className="inline-flex items-center px-6 py-3 bg-accent1 text-background font-semibold rounded-lg shadow hover:bg-accent1/80 transition-colors">
-              Request a briefing
+            <Link href="#customers" className="inline-flex items-center px-6 py-3 bg-accent1 text-background font-semibold rounded-lg shadow hover:bg-accent1/80 transition-colors">
+              Our customers
             </Link>
             <Link href="#consortium" className="inline-flex items-center px-6 py-3 border border-accent1 text-accent1 font-semibold rounded-lg hover:bg-accent1 hover:text-background transition-colors">
-              Join the consortium <ArrowRight className="ml-2 h-5 w-5" />
+              Our partners <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
         </div>
@@ -800,27 +834,28 @@ useEffect(() => {
 
       {/* Contact Section */}
       <section id="contact" className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Contact<span className="text-accent1">_</span></h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Connect with us<span className="text-accent1">_</span></h2>
         <form className="space-y-4">
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-3 gap-4">
             <input type="text" placeholder="Name" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
-            <input type="email" placeholder="Work Email" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
+            <input type="email" placeholder="Email" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
+            <input type="phone" placeholder="Phone" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
           </div>
           {/* New question: business type */}
-          <input type="text" placeholder="What business are you working in?" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
+          <input type="text" placeholder="What is your primary business? (Optional)" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
           {/* New question: interest area */}
-          <select className="w-full px-4 py-2 rounded-md bg-card border border-card/50 text-textSecondary focus:border-accent1 focus:ring-accent1 outline-none">
+          {/* <select className="w-full px-4 py-2 rounded-md bg-card border border-card/50 text-textSecondary focus:border-accent1 focus:ring-accent1 outline-none">
             <option value="" disabled selected hidden>Are you primarily interested in surveillance or counter measures?</option>
             <option value="surveillance">Surveillance</option>
             <option value="counter">Counter measures</option>
             <option value="both">Both</option>
-          </select>
+          </select> */}
           {/* New question: specific capabilities or challenges */}
-          <input type="text" placeholder="What specific capabilities or challenges are you most interested in?" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
-          <textarea placeholder="Additional details" rows={4} className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none"></textarea>
+          <input type="text" placeholder="What capabilities are you interested in? (Optional)" className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none" />
+          <textarea placeholder="Additional details (Optional)" rows={4} className="w-full px-4 py-2 rounded-md bg-card border border-card/50 placeholder-textSecondary focus:border-accent1 focus:ring-accent1 outline-none"></textarea>
           <div className="flex items-center">
             <input type="checkbox" id="consent" className="mr-2" />
-            <label htmlFor="consent" className="text-sm text-textSecondary">I agree to the privacy & export compliance policy.</label>
+            <label htmlFor="consent" className="text-sm text-textSecondary">I agree to the privacy & export compliance policy. #todo</label>
           </div>
           <button type="submit" className="w-full inline-flex justify-center px-6 py-3 bg-accent1 text-background font-semibold rounded-lg shadow hover:bg-accent1/80 transition-colors">Submit</button>
         </form>
