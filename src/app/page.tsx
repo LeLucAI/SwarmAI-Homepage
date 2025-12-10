@@ -237,10 +237,10 @@ useEffect(() => {
             <div className="space-y-6">
               {/* Intro statements */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-                Swarm.AI<br /> Perception Systems for European Defence<span className="text-accent1">_</span>
+                SWARM.AI<br /> Perception Systems for European Defence<span className="text-accent1">_</span>
               </h1>
               <p className="text-lg md:text-xl text-textSecondary">
-                AI backbone for defence against UAS.
+                AI backbone for drone detection, tracking and defence.
               </p>
               <div className="flex flex-wrap space-x-4 mt-6">
                 {/* Prominent contact button */}

@@ -18,8 +18,16 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur border-b border-card/50 bg-card/70">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <div className="flex-shrink-0 text-xl font-bold tracking-wide">
-            <Link href="/">SWARM.AI<span className="text-accent1">_</span></Link>
+          {/* group logo + title so they stay together on the left */}
+          <div className="flex items-center space-x-3">
+            <img
+              src="/images/Logo3.png"
+              className="h-10 md:h-12 w-auto object-contain rounded-2xl flex-shrink-0"
+              alt="SWARM.AI logo"
+            />
+            <div className="text-xl font-bold tracking-wide">
+              <Link href="/">SWARM.AI<span className="text-accent1">_</span></Link>
+            </div>
           </div>
           <div className="hidden md:flex space-x-8">
             {links.map((link) => (
