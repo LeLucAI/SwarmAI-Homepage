@@ -13,15 +13,13 @@ describe('HomePage unlocked view', () => {
 
   test('renders hero text and contact link', () => {
     render(<HomePage />);
-    expect(screen.getByText(/Perception Systems for/)).toBeInTheDocument();
+    expect(screen.getByText(/Perception Systems For European Defence/i)).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Contact Us/i })).toBeInTheDocument();
   });
 
   test('renders product cards and videos', () => {
     render(<HomePage />);
-    // Check for product cards with links to /product
-    const productLinks = screen.getAllByRole('link', { name: /See\. Real-Time Perception/i });
-    expect(productLinks.length).toBeGreaterThan(0);
+    expect(screen.getByRole('link', { name: /Explore Core Tech/i })).toHaveAttribute('href', '/tech');
     // video element should be present in the DOM
     expect(document.querySelector('video')).toBeTruthy();
   });
